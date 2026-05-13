@@ -1,0 +1,62 @@
+/* general formatting */
+* {
+    font-family: sans-serif;
+    color: #B0B0B0;
+}
+html, body {
+    height: 100%;
+    text-align: center;
+    background-color: #202020;
+}
+a {
+    color: #8080FF
+}
+a:visited {
+    color: #D080FF
+}
+ul {
+    list-style-type: disc;
+}
+li {
+    margin: 0 0 8px 0;
+}
+li > ul {
+    margin: 8px 0 0 0;
+}
+div {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+tr {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+td {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+
+
+.bar {
+    background-color: #404040;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+.container {
+    background-color: #202020;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: left;
+}
+.block {
+    display: inline-block;
+    padding: 2ex;
+}
